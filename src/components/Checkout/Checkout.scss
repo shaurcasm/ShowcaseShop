@@ -1,0 +1,58 @@
+@import '../../constants/colors.scss';
+@import '../../utils/responsive.scss';
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+
+    .header {
+        margin-bottom: 5vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        h2 {
+            font-size: 2.4rem;
+            color: $cultured;
+        }
+    }
+
+    .inCart {
+        position: relative;
+        
+        .discard {
+            position: absolute;
+            top:15px;
+            right: 0;
+            font-size: 1.2rem;
+            border-bottom-left-radius: 12px;
+            border-width: 1px;
+
+            &:hover {
+                background-color: $pumpkin;
+                cursor: pointer;
+            }
+
+            @include xs {
+                top: 9px;
+            }
+        }
+    }
+
+    #checkout-button {
+        width: fit-content;
+        height: auto;
+        margin: 6rem;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        border-radius: 9px;
+        align-self: center;
+
+        &:hover {
+            background-color: lighten($light-green, 10%);
+            cursor: pointer;
+        }
+    }
+}
