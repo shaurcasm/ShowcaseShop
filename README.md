@@ -2,6 +2,9 @@
 
 ## A showcase project for a Recruitment challenge.
 
+## Major Reference
+Thank you to Zac Fukuda for his [tutorial](https://www.mokuji.me/article/passport-jwt-react) on Passport-jwt.
+
 ### User Stories:
 
 1. Login/Logout: User able to login with password, good security is advantage, and user able to logout.
