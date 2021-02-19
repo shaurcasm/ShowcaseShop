@@ -1,6 +1,6 @@
 {
   "name": "lawyersshop",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "A showcase project for a recruitment assignment.",
   "proxy": "http://localhost:9000/",
@@ -61,7 +61,7 @@
       "last 1 safari version"
     ]
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.3.2",

@@ -9,8 +9,6 @@ import Home from './components/Home';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import Logout from './components/Logout';
-
-// ToDO
 import Checkout from './components/Checkout';
 
 import './App.scss';
